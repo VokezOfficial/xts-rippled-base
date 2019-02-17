@@ -4,7 +4,7 @@ RUN apt-get update && \
     apt-get -y upgrade && \
     apt-get -y install git golang-go \
     pkg-config protobuf-compiler=3.0.0-9.1ubuntu1 clang=1:6.0-41~exp5~ubuntu1 \
-    clang-6.0=1:6.0-1ubuntu2 libcurl4-openssl-dev=7.58.0-2ubuntu3.5 ccache \
+    clang-6.0=1:6.0-1ubuntu2 libcurl4-openssl-dev ccache \
     icecc \
     python-dev=2.7.15~rc1-1 \
     libprotobuf-dev=3.0.0-9.1ubuntu1 libssl-dev=1.1.0g-2ubuntu4.3 wget && \
